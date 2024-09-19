@@ -63,6 +63,8 @@ const App = () => {
     <AssessmentPage />
   </div> */}
       <Student></Student>
+
+      {/* <AssessmentPage></AssessmentPage> */}
     </>
   );
 };
