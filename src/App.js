@@ -6,6 +6,7 @@ import LineChart from './components/LineChart';
 import Table from './components/Table';
 import AssessmentPage from './components/AssessmentPage';
 import Student from './components/Student'
+import Instructions from './components/Instructions';
 
 
 const App = () => {
@@ -62,9 +63,10 @@ const App = () => {
   <div className="App">
     <AssessmentPage />
   </div> */}
-      <Student></Student>
+      {/* <Student></Student> */}
 
       {/* <AssessmentPage></AssessmentPage> */}
+      <Instructions></Instructions>
     </>
   );
 };
