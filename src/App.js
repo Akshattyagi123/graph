@@ -5,6 +5,7 @@ import PieChart from './components/PieChart';
 import LineChart from './components/LineChart';
 import Table from './components/Table';
 import AssessmentPage from './components/AssessmentPage';
+import Student from './components/Student'
 
 
 const App = () => {
@@ -60,8 +61,8 @@ const App = () => {
       </div >
   <div className="App">
     <AssessmentPage />
-  </div> */} */
-    <div></div>
+  </div> */}
+      <Student></Student>
     </>
   );
 };
